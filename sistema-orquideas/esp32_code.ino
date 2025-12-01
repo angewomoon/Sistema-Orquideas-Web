@@ -5,8 +5,8 @@
 #include "addons/RTDBHelper.h"
 
 // Configuración WiFi
-#define WIFI_SSID "Polipoket"
-#define WIFI_PASSWORD "1222250410"
+#define WIFI_SSID "Samu aquí pones tu WIFI"
+#define WIFI_PASSWORD "y aquí la contraseña para probar los arduinos"
 
 // Configuración Firebase
 #define API_KEY "1:692829732322:web:dbfdd1afbec734a6b7cdbb"
@@ -228,3 +228,4 @@ void cleanOldData() {
   Serial.println("Limpiando datos antiguos...");
   // Implementación pendiente según política de retención de datos
 }
+
